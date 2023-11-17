@@ -171,7 +171,6 @@ public class FamilyTree {
 			// Throw TreeException with a useful message
 			throw new TreeException("Node with name2 doesn't exist");
 		}
-		System.out.println(node1.parent + " " + node2.parent);
 		
 
 		// Get ancestors of node1 and node2.
